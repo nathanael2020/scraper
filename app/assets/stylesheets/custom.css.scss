@@ -1,0 +1,31 @@
+#table-design {
+	
+	margin: 15px;
+	border: 1px solid #e3e3e3;
+	width: 80%;
+	border-radius: 10px;	
+	font-family: Gill Sans;
+	background-color: #cccccc;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+#table-design thead th {
+	
+	font-weight: normal;
+	padding: 5px;
+	
+}
+
+#table-design td {
+	
+	padding: 5px;
+	margin: 5px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+	color: #000044;
+	text-align: right;
+
+	
+}

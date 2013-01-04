@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-01-02
+  hour: 1
+  geothermal: 1
+  biomass: 1
+  biogas: 1
+  small_hydro: 1
+  wind_total: 1
+  solar_pv: 1
+  solar_thermal: 1
+
+two:
+  date: 2013-01-02
+  hour: 1
+  geothermal: 1
+  biomass: 1
+  biogas: 1
+  small_hydro: 1
+  wind_total: 1
+  solar_pv: 1
+  solar_thermal: 1

@@ -1,0 +1,42 @@
+
+<% provide(:title, 'Home') %>
+
+
+
+
+	<table id="table-design"> <thead>
+	
+	<th>Date</th>
+	<th>Hour</th>
+	<th>Geothermal</th>
+	<th>Biomass</th>
+	<th>Biogas</th>
+	<th>Small Hydro</th>
+	<th>Wind</th>
+	<th>Solar PV</th>
+	<th>Solar Thermal</th>
+	
+	</thead>
+
+<% @records.each do |record| %>
+	
+	<% if !record.date.nil? %>
+	
+		<tr>
+		<td><%= record.date %></td>
+		<td><%= record.hour %></td>
+		<td><%= record.geothermal %></td>
+		<td><%= record.biomass %></td>
+		<td><%= record.biogas %></td>
+		<td><%= record.small_hydro %></td>
+		<td><%= record.wind_total %></td>
+		<td><%= record.solar_pv %></td>
+		<td><%= record.solar_thermal %></td>
+		</tr>
+
+		<% end %>
+		
+<% end %>
+
+
+	</table>

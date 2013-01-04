@@ -1,0 +1,2 @@
+module RenewablesOutputHelper
+end
